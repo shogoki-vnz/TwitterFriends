@@ -1,0 +1,12 @@
+************************************TwitterFriends*******************************************
+
+TwitterFriends it's a JQuery Plugins that show an autocomplete component every time that you insert a @ simbol in 
+the textfield that it's attached to the plugin.
+
+To use TwitterFriends just import the js and css fields of the plugin and initialize the component whith the next
+code
+
+TwitterFriends.Init(TWITTER_USER_ID_OR_USER_NAME, INPUT_FIELD);
+
+The first parameter is the Twitter user_id or the user_name(whitout @) of the user that you whant to get it's fiends,
+The second parmeter is the input field where you whant to show the autocomplete.

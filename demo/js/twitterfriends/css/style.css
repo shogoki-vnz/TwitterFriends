@@ -1,0 +1,44 @@
+/*! TwitterFrieds v0.1 | Autor: Jhean Ceballos: @shogoki_vnz 
+is released under the MIT License <http://www.opensource.org/licenses/mit-license.php*/
+#twitterUsers{
+	position: absolute;
+	overflow: hidden;
+	display: none;
+	border: solid 2px #87CFFF;
+	background-color: white;
+	color: #004363;
+}
+
+#twittUserPloader{
+	position: absolute;
+	width:16px;
+	height: 16px;
+	background: url('pre.gif') no-repeat 0 0;
+}
+
+.info{
+	height: 24px;
+	margin: 0 0 5px 0;
+	cursor: pointer;
+}
+
+.selected{
+	color: white;
+	background-color: #87CFFF;
+}
+
+.info:hover{
+	color: white;
+	background-color: #87CFFF;
+}
+
+.info img{
+	float: left;
+	margin: 0px 3px 0 0 !important;
+}
+
+.info p{
+	margin: 0;
+	padding-top: 5px;
+	text-align: left;
+}
